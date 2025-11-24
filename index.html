@@ -20,7 +20,7 @@
         </div>
     </header>
 
-    <nav>
+    <nav id="nav">
         <a href="#">Home</a>
         <a href="#">About</a>
             <div class="drop">
@@ -77,6 +77,8 @@
         <img src="images/header/Audi_A6.jpg" alt="Audi a6">
         <h2>Audi A8</h2>
         <img src="images/header/Audi_A8.jpg" alt="Audi a8">
+
+        
 
     </main>
 
@@ -175,9 +177,11 @@
          </h2>
 
     </section>
-
-   
-
+ <div class="setwin" id="setwin">
+    <label for="navbackcolor">Change nav bar color</label>
+    <input type="color" id="navbackcolor" onchange="document.getElementById('nav').style.backgroundColor = this.value">
+    <button type="button" id="closesetwin" onclick="document.getElementById('setwin').style.display = 'none'">X</button>
+</div>
 
 
     <footer>
@@ -201,7 +205,7 @@
        
 
     </footer>
-    
+   
     
 </body>
 </html>

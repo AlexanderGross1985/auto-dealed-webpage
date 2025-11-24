@@ -122,6 +122,8 @@ main{
     background-color: rgb(199, 199, 199);
     box-shadow: 5px 5px 10px black;
     padding: 20px;
+    position: relative;
+
 }
 main h2{
     display: block;
@@ -231,8 +233,30 @@ footer{
 .foot3{flex: 30%;} .foot3 img{width: 80%;} 
 
 
-
-
+/*---------SETWINDOW----------*/
+.setwin{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 30vw;
+    height: 30vw;
+    background-color: black;
+    color: aliceblue;
+    transform: translate(-50%, 50%);
+    padding: 25px;
+}
+#closesetwin{
+    background-color: aliceblue;
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 900s;
+    cursor: pointer;
+}
 /*-----------Media--------------------------*/
 
 @media screen and (max-width: 700px) {
